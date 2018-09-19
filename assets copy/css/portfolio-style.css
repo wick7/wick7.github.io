@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    padding: 0;
+ }
+
+ main {
+     height: 60rem;
+     width: 100vw;
+     /* background-color: rgb(219, 212, 212); */
+     background-image: url('../images/grey_bg.jpg');
+     
+ }
+
+
+  h1 {
+      color: rgb(55, 187, 174);
+  }
+
+  .line {
+      width: 50%;
+      border: 1px solid black;
+  }
+
+ 
+
+  /* Special to Portfolio */
+
+
+  .port-con {
+      height: 55rem;
+      width: 60%;
+      background-color: white;
+      position: absolute;
+      top: 75%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+  }
+
+  .port {
+      width: auto;
+      height: 100%;
+      margin: 25px 25px 25px 25px;
+  }
+
+  .card {
+      height: 200px;
+      width: 30%;
+      float: left;
+      margin: 25px;
+      transition: .6s all ease;
+      /* box-shadow: 5px 5px rgba(3, 2, 2, 0.1); */
+  }
+
+  .card:hover {
+      transform: translateY(-7px);
+  }
+
+  #card-1 {
+      background-color: aqua; 
+      background-image: url('https://images.pexels.com/photos/221185/pexels-photo-221185.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+      background-size: 100% 100%;
+      }
+  #card-2 {
+      background-color: green;
+      background-image: url('https://images.pexels.com/photos/270949/pexels-photo-270949.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+      background-size: 100% 100%;
+      }
+  #card-3 {
+      background-color: yellow;
+      background-image: url('https://images.pexels.com/photos/802959/pexels-photo-802959.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+      background-size: 100% 100%;
+      }
+  #card-4 {
+      background-color: teal;
+      background-image: url('https://images.pexels.com/photos/48605/pexels-photo-48605.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+      background-size: 100% 100%;
+      }
+  #card-5 {
+      background-color: aqua;
+      background-image: url('https://images.pexels.com/photos/333984/pexels-photo-333984.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+      background-size: 100% 100%;
+      
+      }
+
+  .banner {
+      background-color: rgb(55, 187, 174);
+      height: 50px;
+      width: 100%;
+      color: white;
+      font-size: 19px;
+      text-align: center;
+      line-height: 50px;
+      margin-top: 145px;
+  }

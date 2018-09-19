@@ -1,0 +1,106 @@
+
+  nav {
+    width: 100vw;
+    height: auto;
+    overflow: auto;
+}
+
+ /* name isnt resoponsive especially lines only active in portoflio page*/
+
+.name { 
+    float: left;
+    height: 70px;
+    width: 10%;
+    margin-left: 20%;
+    
+    /* background-color: rgb(55, 187, 174); */
+    background: linear-gradient(to left, white 50%, rgb(55, 187, 174) 50%);
+    background-size: 200% 100%;
+    background-position:right bottom;
+    line-height: 70px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 300;
+    color: rgb(55, 187, 174);
+    transition: .6s all ease;
+}
+
+.name:hover {
+    color: white;
+    background-position:left bottom;
+}
+
+a:hover .name {
+    color: white;
+    background-position:left bottom;
+}
+
+a:hover .name-line {
+    border-top: .5px solid rgb(255, 255, 255);
+    background-position:left bottom;
+}
+
+.name:hover .name-line {
+    border-top: .5px solid rgb(255,255,255);
+}
+
+/* .name-line {
+    border-top: .5px solid rgb(55, 187, 174);
+    padding: 52px;
+    position: relative;
+    transition: .6s all ease;
+}
+
+.name-line-1 {top: 67px; right: 116px;}
+
+.name-line-2 {top: 15px;} */
+
+ul {
+    background-color: green;
+    list-style-type: none;
+    line-height: 15px;
+    margin-bottom: 70px;
+    margin-right: 15%;
+    /* margin-right: 50px; */
+    /* margin-top: 15px;
+    margin-bottom: 15px; */
+}
+
+li {
+    float: right;
+    padding: 10px;
+    margin-right: 5px;
+    border-right: 2px solid grey;
+    transition: .5s all ease;
+}
+
+/* li:nth-child(2) {
+    border-left: 2px solid grey;
+    
+} */
+
+li:hover {
+    transform: translateY(-3px);
+    background-color: rgb(55, 187, 174);
+    color: white;
+}
+
+/* li:hover a {
+    color: white;
+} */
+
+/* a {
+    text-decoration: none;
+    color: black;
+} */
+
+footer {
+    width: 100vw;
+    height: auto;
+    overflow: auto;
+    background-color: gray;
+    border-top: 10px solid rgb(55, 187, 174);
+    text-align: center;
+    line-height: 90px;
+    color: white;
+}

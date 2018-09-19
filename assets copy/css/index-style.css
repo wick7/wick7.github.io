@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+ }
+
+ main {
+     height: 960px;
+     width: 100vw;
+     /* background-color: rgb(219, 212, 212); */
+     background-image: url('../images/grey_bg.jpg');
+ }
+
+  .about-con {
+      height: 60%;
+      width: 60%;
+      background-color: white;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+  }
+
+  .about {
+      width: auto;
+      height: 100%;
+      margin: 25px 25px 25px 25px;
+  }
+
+  img  {
+      float: left;
+      width: 30%;
+      height: 50%;
+      margin: 5px 15px 15px 5px;
+  }
+
+  p {
+      color: gray;
+      font-size: 95%;
+      line-height: 22px;
+  }
+
+  h1 {
+      color: rgb(55, 187, 174);
+  }
+
+  .line {
+      width: 50%;
+      border: 1px solid black;
+  }
+
+  
